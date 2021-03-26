@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 /*
+	#cgo LDFLAGS: -lm
 	#include <stdio.h>
 	#include <math.h>
 	#include "mylib.h"
